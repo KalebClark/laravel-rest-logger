@@ -34,7 +34,6 @@ class RestLogger {
         $log->has_json    = $request->isJson();
 
         $log->save();
-
         return $next($request);
     }
 

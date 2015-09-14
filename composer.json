@@ -1,12 +1,12 @@
 {
-    "name": "my-vendor/my-package",
+    "name": "kalebclark/laravel-route-logger",
     "license": "MIT",
-    "description": "Description about your package",
+    "description": "Laravel 5 middleware for logging all incoming requests. Intended for restful services",
     "keywords": [],    
     "authors": [
         {
-            "name": "Your Name",
-            "email": "email@example.com"
+            "name": "Kaleb Clark",
+            "email": "kaleb@abraxxus.net"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MyVendor\\MyPackage\\": "src/"
+            "KalebClark\\RestLogger\\": "src/"
         }
     }  
 }
